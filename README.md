@@ -3,7 +3,7 @@
 Bem-vindo ao meu portfólio oficial! Este projeto reúne meus estudos, projetos e experiências na área de Desenvolvimento Web e Análise de Sistemas.
 
 ## 🔗 Acesse o site
-👉 [Clique aqui para visualizar o Portfólio Online](https://herynelson.github.iohery.github.io/)
+👉 [Clique aqui para visualizar o Portfólio Online](https://herynelson.github.io/hery.github.io/)
 
 ## 🛠 Tecnologias Utilizadas
 Este portfólio foi construído utilizando:
