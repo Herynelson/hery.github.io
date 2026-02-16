@@ -168,21 +168,45 @@
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" title="Figma">
         </section>
 
-         <section id="projetos" class="projetos">
-            <h2>Projetos</h2>
-            <p class="text-muted">Clique nas imagens para ver </p>
-            <div class="carousel-container">
-                <a href="projetos/AM.html" class="project-card"><img src="https://cdn.awsli.com.br/600x450/1225/1225697/produto/47030963/azulejo-decorativo-arctic-monkeys-am-15x15-b77737ac.jpg" alt="Projeto Arctic Monkeys"></a>
-                <a href="projetos/Loja Cabuloso.html" class="project-card"><img src="https://viashoppingbarreiro.com.br/wp-content/uploads/2024/07/logo_loja_do_cruzeiro.png" alt="Loja Cabuloso"></a>
-                <a href="projetos/Spotify.html" class="project-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKxg_wxNHSPTgDyJNSuPX842e7AyzoXqmbCoujU5hSBfXNel1YUEer8_B6y9Tn6dZS3FA&usqp=CAU" alt="Clone Spotify"></a>
-                <a href="projetos/QRCode.html" class="project-card"><img src="https://rlv.zcache.com.br/adesivo_redondo_codigo_qr_elegante_de_codigo_qr_dourado-rf150ac01004e4519a7b49ca287fa7886_0ugmp_8byvr_644.jpg" alt="Gerador QR Code"></a>
-        </section>
+         <section id="projetos" class="carrossel">
+    <hr>
+    <h2>Projetos</h2>
+    <div class="carousel-container">
+        <button class="prev" onclick="scrollCarousel(-1)">&#10094;</button>
+        <div class="carousel">
+            <a href="projetos/AM.html" target="_blank">
+                <img src="https://cdn.awsli.com.br/600x450/1225/1225697/produto/47030963/azulejo-decorativo-arctic-monkeys-am-15x15-b77737ac.jpg" alt="Projeto AM">
+            </a>
+            
+            <a href="projetos/Loja Cabuloso.html" target="_blank">
+                <img src="https://viashoppingbarreiro.com.br/wp-content/uploads/2024/07/logo_loja_do_cruzeiro.png" alt="Projeto Loja">
+            </a>
+
+            <a href="projetos/Spotify.html" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKxg_wxNHSPTgDyJNSuPX842e7AyzoXqmbCoujU5hSBfXNel1YUEer8_B6y9Tn6dZS3FA&usqp=CAU" alt="Projeto Spotify">
+            </a>
+
+            <a href="projetos/QrCode.html" target="_blank">
+                <img src="https://rlv.zcache.com.br/adesivo_redondo_codigo_qr_elegante_de_codigo_qr_dourado-rf150ac01004e4519a7b49ca287fa7886_0ugmp_8byvr_644.jpg" alt="Projeto QR Code">
+            </a>
+            
+            </div>
+        <button class="next" onclick="scrollCarousel(1)">&#10095;</button>
+    </div>
+</section>
         <section id="projetos" class="projetos">
-            <div class="carousel-container">
-                <a href="projetos/Filmes.html" class="project-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSUyL-vCe7wfK_D3gWrNEzY1lmJhrtvLHIdQ&s" alt="filmes"></a>
-                <a href="projetos/Saraê.html" class="project-card"><img src="imagens/sarae.jfif" alt="sarae"></a>
-                <a href="projetos/Fit.html" class="project-card"><img src="data:image/png;base64,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" alt="academia"></a>
-                <a href="projetos/AromaPerfeito.html" class="project-card"><img src="imagens/logoaroma.jfif" alt="aroma"></a>
+            <hr>
+    <h2>Projetos</h2>
+    <div class="carousel-container">
+        <button class="prev" onclick="scrollCarousel(-1)">&#10094;</button>
+        <div class="carousel">
+                <a href="projetos/Filmes.html" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSUyL-vCe7wfK_D3gWrNEzY1lmJhrtvLHIdQ&s" alt="filmes"></a>
+                <a href="projetos/Saraê.html" target="_blank"><img src="imagens/sarae.jfif" alt="sarae"></a>
+                <a href="projetos/Fit.html" target="_blank"><img src="data:image/png;base64,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" alt="academia"></a>
+                <a href="projetos/AromaPerfeito.html" target="_blank"><img src="imagens/logoaroma.jfif" alt="aroma"></a>
+        </div>
+        <button class="next" onclick="scrollCarousel(1)">&#10095;</button>
+    </div>
         </section>
 
         <section id="contato" class="contato">
@@ -221,4 +245,5 @@
 </body>
 
 </html>
+
 
